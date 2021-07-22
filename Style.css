@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  padding: 200px;
+}
+
+.parent {
+  background-color: lightgray;
+  width: 100%;
+  height: 410px;
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+
+.child {
+  background-color: lightpink;
+  width: 200px;
+  height: 200px;
+}
+
+.parent2 {
+  background-color: lightgray;
+  width: 100%;
+  height: 410px;
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* similarly we can justify the content like flex-start, center, space-around, space-between, space-evenly  */
+}
+
+.child2 {
+  background-color: lightpink;
+  width: 200px;
+  height: 200px;
+}
+
+.parent1 {
+  background-color: lightgray;
+  width: 100%;
+  height: 410px;
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.child1 {
+  background-color: lightpink;
+  width: 200px;
+  height: 200px;
+}
+
+.parent3 {
+  background-color: lightgray;
+  width: 100%;
+  height: 610px;
+  display: flex;
+  gap: 9px;
+  align-items: center; /* similarly we can justify the content like baseline, flex-end, flex-start, strech  */
+  justify-content: center;
+}
+
+.child3 {
+  background-color: lightpink;
+  width: 200px;
+  height: 200px;
+}
+.child4 {
+  background-color: lightgreen;
+  width: 200px;
+  height: 300px;
+}
